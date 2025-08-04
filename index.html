@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arete Weather Forecast 🌤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>What's the Weather at Arete?</h1>
+  <button id="toggleDarkMode" aria-label="Toggle Dark Mode">🌙</button>
+
+  <div class="form-container">
+    <select id="officeSelect">
+      <option value="">-- Select a Location --</option>
+      <option value="VA">Falls Church, VA</option>
+      <option value="AL">Huntsville, AL</option>
+      <option value="CO">Niwot, CO</option>
+      <option value="CA">Northridge, CA</option>
+      <option value="AZ">Tucson, AZ</option>
+      <option value="FL">Valparaiso, FL</option>
+    </select>
+    <button id="retrieveForecast">Get Forecast</button>
+  </div>
+
+  <div id="forecastInfo">
+    <p class="placeholder">Select a location and click "Get Forecast" to begin.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
