@@ -17,7 +17,7 @@ The (Arete Office) Weather App is a responsive React application that allows use
 - JavaScript (ES6+)
 - HTML5 + CSS3
 - OpenWeatherMap API
-- Netlify (for deployment)
+- Vercel (for deployment)
 
 ## Instructions for Use
 1. Visit the deployed site .
